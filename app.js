@@ -10,3 +10,14 @@ app.listen(3000, ()=>{
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
+app.get('/registro', (req,res)=>{
+    res.sendFile(__dirname + '/views/registro.html');
+});
+app.get('/login', (req,res)=>{
+    res.sendFile(__dirname + '/views/login.html');
+});
+
+// app.post("/register", (req, res) => {
+//     console.log("te registraste correctamente")
+//     res.redirect("/")
+// })

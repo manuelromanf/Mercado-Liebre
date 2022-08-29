@@ -185,6 +185,18 @@ footer i{
 footer article p{
     color: #666;
 }
+footer section{
+    background-color: #FFF;
+    border: solid 1px #666;
+    text-align: left;
+}
+footer section article{
+    margin-top: 15px;
+    padding: 10px;
+}
+footer i{
+    font-size: 20px;
+}
 /*LOGIN AND REGISTER START CSS SECTION*/
 
 form{
@@ -226,6 +238,15 @@ button.boton{
 }
 button.boton:hover{
     background-color: #0022AA;
+}
+button.boton-borrar{
+    margin: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #ebebeb;
+    height: 30px;
+    transition: all 450ms;
 }
 #form-login{
     margin: auto;
@@ -367,6 +388,12 @@ button.boton:hover{
     footer article {
         width: 30%;
         margin: 10px;
+    }
+    footer i{
+        transition: all 450ms;
+    }
+    footer i:hover{
+        color: #0022AA;
     }
     
 }

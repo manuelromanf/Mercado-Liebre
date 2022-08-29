@@ -71,7 +71,7 @@ header .form .input{
     border-radius: 7px;
     border: #ebebeb;
     width: 100%;
-    height: 50%;
+    height: 40%;
 }
 header .form .submit{
     color: #666;
@@ -361,6 +361,9 @@ button.boton-borrar{
     }
     div.top-header{
         padding: 10px;
+    }
+    header .form .input{
+        height: 35%;
     }
     .top-header .tarjeta-de-credito{
         width: 30%;
